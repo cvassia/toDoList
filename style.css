@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-image: url(patrick.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    position: absolute;
+    left: 978px;
+    top: -8px;
+    color: wheat;
+    font-size: 3.5em;
+    font-family: "Nothing You Could Do", cursive;
+}
+
+.container {
+    width: 65%;
+    height: auto;
+}
+
+form {
+    margin-left: 54px;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #5d5d607a;
+    font-size: 16px;
+    border-radius: 4px 0 0 4px;
+    box-sizing: border-box;
+    width: 380px;
+    background-color: #5d5d607a;
+    color: rgb(230, 230, 230);
+    outline: none;
+}
+
+::placeholder {
+    color: rgb(230, 230, 230);
+}
+
+#add {
+    border: 1px solid #5fd6de87;
+    background: #5fd6de87;
+    padding: 10px 20px;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    width: 145px;
+    margin: 20px 0;
+    border-left: 0;
+    outline: none;
+    color: rgb(230, 230, 230);
+}
+
+.toDoInsert {
+    max-width: 75%;
+    min-height: 590px;
+    margin-left: 30px;
+    padding-top: 1px;
+    padding-bottom: 15px;
+    padding-left: 33px;
+    padding-right: 33px;
+    background-color: #88888840;
+    color: rgb(230, 230, 230);
+    box-shadow: 0px 0px 136px 41px rgba(0, 0, 0, 1);
+    border-radius: 11px;
+}
+
+#listName {
+    padding-top: 25px;
+    padding-left: 0px;
+    border: none;
+    font-size: 25px;
+    width: 500px;
+    background-color: #5d5d6000;
+    outline: none;
+    color: #73cdce;
+    caret-color: #73cdce;
+}
+
+::placeholder {
+    color: #73cdce;
+}
+
+.list {
+    list-style-type: none;
+    margin-top: 26px;
+    padding-left: 15px;
+}
+
+.toDo {
+    word-break: break-all;
+    font-size: 25px;
+    outline: none;
+}
+
+.delete {
+    display: none;
+    margin-left: 12px;
+}
+
+.toDo:hover .delete {
+    display: inline-block;
+}
+
+#trash:hover {
+    color: rgba(95, 0, 0, 0.486);
+}
+
+#done:hover {
+    color: rgba(0, 202, 67, 0.404);
+}
+
+i {
+    margin-left: 16px;
+    color: #73cdcebe;
+}
+
+.strike {
+    text-decoration: line-through;
+    text-decoration-color: rgba(0, 255, 85, 0.473);
+    color: rgba(255, 255, 255, 0.308);
+}
