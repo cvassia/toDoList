@@ -103,5 +103,3 @@ deleteToDo.addEventListener("click", e => {
     strike.classList.toggle("strike");
   }
 });
-
-deleteToDo.deleteItem();
